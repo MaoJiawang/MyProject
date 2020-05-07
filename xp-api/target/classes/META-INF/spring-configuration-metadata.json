@@ -1,0 +1,18 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.xp.config.OracleConfig",
+      "name": "spring.datasource.oral",
+      "sourceMethod": "examDataSource()",
+      "type": "javax.sql.DataSource"
+    },
+    {
+      "sourceType": "com.xp.config.SqlserverConfig",
+      "name": "spring.datasource.sqlser",
+      "sourceMethod": "inspectDataSource()",
+      "type": "javax.sql.DataSource"
+    }
+  ],
+  "properties": []
+}

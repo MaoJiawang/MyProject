@@ -1,0 +1,25 @@
+#配置双数据库
+spring:
+  datasource:
+    oral:
+        driverClassName: oracle.jdbc.driver.OracleDriver
+        jdbcUrl: jdbc:oracle:thin:@localhost:1521:orcl
+        username: zlhis
+        password: HIS
+    sqlser:
+        driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+        jdbcUrl: mysql://localhost:3306:testBean
+        username: his
+        password: HIS
+
+
+#        exam:
+#          driverClassName: oracle.jdbc.driver.OracleDriver
+#          jdbcUrl: jdbc:oracle:thin:@localhost:1521:orcl
+#          username: zlhis
+#          password: HIS
+#        inspect:
+#          driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+#          jdbcUrl: mysql://localhost:3306:testBean
+#          username: his
+#          password: HIS
